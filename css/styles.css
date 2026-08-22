@@ -1,10 +1,21 @@
 body {
-    background-color: #c3eefc79;
-    /** Color de fondo de la página */
+    /** Iamgen de fondo de la página */
+    background-image: url(/img/fondo.jpg);
 }
 
-.content-resenas {
-    display: flex;
+#titleResena {
+    /**Centrar texto*/
+    text-align: center;
+    /** Color de fondo del contenedor */
+    background-color: #fffc30;
+    /** Espacio interno del contenedor */
+    padding: 20px;
+    margin: 15px;
+    /** Bordes redondeados del contenedor */
+    border-radius: 8px;
+    /** Sombra del contenedor */
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+
 }
 
 .rowResena,
@@ -16,9 +27,9 @@ body {
 }
 
 .divResena {
-    margin: 100px;
+    margin: 50px;
     /** Elimina el margen predeterminado */
-    padding: 1080px;
+    padding: 10px;
     /**Espacio interno de la página */
 }
 
@@ -44,7 +55,14 @@ body {
     text-align: center;
     margin-top: 30px;
     padding: 30px;
-    background-color: rgb(139, 17, 74);
+    background-color: rgb(27, 138, 12);
     color: white;
-    border-left: 10px solid rgb(85, 5, 36);
+    border-left: 10px solid rgb(4, 75, 28);
+}
+
+#footerPie,
+#footerCabeza {
+    text-align: center;
+    background-color: rgb(218, 255, 213);
+    border-left: 10px solid rgb(4, 75, 28);
 }
