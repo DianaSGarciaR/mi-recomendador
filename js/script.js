@@ -14,10 +14,16 @@ let listVideoGame = [
     , "10. Among us"
 ];
 let mensaje = "Hola, puedes ver mi pagina web";
-let mensaje = "1. Project zomboid";
+let miVideoGameFavorito = "Project zomboid";
 
-let topUno = 1;
-let topdos = 2;
+let numeroVideoGame = 1;
+let numeroMiFavorito = 10;
+
 
 let bandera = true;
 
+console.log(mensaje);
+console.log("Vista activa: ", bandera)
+console.log("Mi video juego favorito: es el Top ", numeroVideoGame, "y su nombre es: ", miVideoGameFavorito);
+console.log("Cuantos juegos recomiendo: ", numeroVideoGame);
+console.log("Lista de todos los juegos: ", listVideoGame);

@@ -1,0 +1,50 @@
+body {
+    background-color: #c3eefc79;
+    /** Color de fondo de la página */
+}
+
+.content-resenas {
+    display: flex;
+}
+
+.rowResena,
+.divFormat {
+    margin: 0px;
+    /** Elimina el margen predeterminado */
+    padding: 10px;
+    /**Espacio interno de la página */
+}
+
+.divResena {
+    margin: 100px;
+    /** Elimina el margen predeterminado */
+    padding: 1080px;
+    /**Espacio interno de la página */
+}
+
+.imgCarusel {
+    width: 100%;
+    /* Alto fijo deseado */
+    height: 500px;
+    /* Evita la distorsión */
+    object-fit: cover;
+    position: center;
+}
+
+.imgResena {
+    width: 100%;
+    height: auto;
+    /* Alto automatico deseado */
+    object-fit: cover;
+    /* Evita la distorsión */
+    position: center;
+}
+
+#footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: rgb(139, 17, 74);
+    color: white;
+    border-left: 10px solid rgb(85, 5, 36);
+}
